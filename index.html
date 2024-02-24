@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+
+<body>
+    
+    <main>
+        <header class="header">
+            <h1>calc</h1>
+		        <nav class="Theme-control">
+					<h5>THEME</h5>
+					<div class="Toggle">
+						<ul>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+						</ul>
+						<ul class="Toggle-btn">
+							<li><input id="theme1" onclick="toggleTheme(1)" type="radio" checked></li>
+							<li><input id="theme2" onclick="toggleTheme(2)" type="radio"></li>
+							<li><input id="theme3" onclick="toggleTheme(3)" type="radio"></li>
+						</ul>
+					</div>
+             	</nav>
+        </header>
+	
+        <section class="Screen" >
+			         <input type="text" autofocus id="screen" placeholder="0" />
+        </section>
+        
+		      <section class="Keypad" >
+            <ul>
+				            <li> <button onclick="addNum(7)">7</button> </li>
+				            <li> <button onclick="addNum(8)">8</button> </li>
+				            <li> <button onclick="addNum(9)">9</button> </li>
+				            <li> <button onclick="delNum()">DEL</button> </li>
+				            <li> <button onclick="addNum(4)">4</button> </li>
+				            <li> <button onclick="addNum(5)">5</button> </li>
+				            <li> <button onclick="addNum(6)">6</button> </li>
+				            <li> <button onclick="addNum('+')">+</button> </li>
+				            <li> <button onclick="addNum(1)">1</button> </li>
+				            <li> <button onclick="addNum(2)">2</button> </li>
+				            <li> <button onclick="addNum(3)">3</button> </li>
+				            <li> <button onclick="addNum('-')">-</button> </li>
+				            <li> <button onclick="addNum('.')">.</button> </li>
+				            <li> <button onclick="addNum(0)">0</button> </li>
+				            <li> <button onclick="addNum('/')">/</button> </li>
+				            <li> <button onclick="addNum('x')">x</button> </li>
+				            <li> <button onclick="resetScreen()">RESET</button> </li>
+				            <li> <button onclick="equateFunc()">=</button> </li>
+			         </ul>
+		      </section>
+    </main>
+
+  
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Abubakar Alaya</a>.
+    </footer>
+	
+    
+	<script src="main.js"></script>
+</body>
+</html>
