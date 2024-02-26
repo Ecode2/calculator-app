@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ecode2/calculator-app)
-- Live Site URL: [Add live site URL here](https://ecode2.github.io/calculator-app)
+- Solution URL: [](https://github.com/Ecode2/calculator-app)
+- Live Site URL: [](https://ecode2.github.io/calculator-app)
 
 ## My process
 
